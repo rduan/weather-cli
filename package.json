@@ -6,6 +6,12 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
-  "license": "ISC"
+  "bin": {
+    "weather": "bin/weather"
+  },
+  "author": "Richard Duan",
+  "license": "ISC",
+  "dependencies": {
+    "minimist": "^1.2.0"
+  }
 }
